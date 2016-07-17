@@ -1,0 +1,22 @@
+Started GET "/" for 127.0.0.1 at 2016-07-17 17:47:24 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/railties-5.0.0/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 22ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/helloworld" for 127.0.0.1 at 2016-07-17 17:47:37 +0900
+Processing by SearchController#helloworld as HTML
+  Rendering search/helloworld.html.erb within layouts/application
+  Rendered search/helloworld.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 833ms (Views: 830.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/helloworld" for 127.0.0.1 at 2016-07-17 17:48:14 +0900
+Processing by SearchController#helloworld as HTML
+  Rendering search/helloworld.html.erb within layouts/application
+  Rendered search/helloworld.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 317ms (Views: 305.3ms | ActiveRecord: 0.0ms)
+
+
